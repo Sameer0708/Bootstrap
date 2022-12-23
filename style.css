@@ -1,0 +1,109 @@
+.bgimage
+{
+    background-image: url("banner.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size:auto;
+    width: 818px;
+    height: 550px;
+    margin-left: 460px;
+}
+.imges
+{
+    margin-left: 635px;
+    
+}
+.bg-img
+{
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50%;
+    
+}
+.image
+{
+    margin-right: 2px;
+    width: 50pc;
+    
+}
+.product
+{
+    display: flex;
+    justify-content: center;
+}
+.also
+{
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Times New Roman';
+    margin-right: 30pc;
+    margin-top: 70px;
+}
+.collapse
+{
+    background-color: lightgray !important
+}
+.container-fluid
+{
+    background-color: whitesmoke
+}
+.btn 
+{
+    background-color: rgb(47, 255, 78);
+    border: 1px solid black;
+    color: rgb(29, 18, 4);
+    border-radius: 5px;
+}
+.btn:hover
+{
+    background-color:aquamarine;
+}
+.btn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  .btn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .btn:hover span {
+    padding-right: 25px;
+  }
+  
+  .btn:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  .new
+  {
+    margin-left: 15px;
+  }
+  .btns
+  {
+    margin-left: 20pc;
+  }
+  .col
+  {
+    position: auto auto auto auto !important
+  }
+ .para
+ {
+    font-family: 'Franklin Gothic Medium';
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+ }
+ .imgsrc
+ {
+  background-image: url("test-img4.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  
+ }
